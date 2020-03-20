@@ -41,3 +41,23 @@ function isPalindrome(s){
         return false;
     }
 }
+
+//Exercice 4 
+
+function swapCase(s){
+    let taille = s.length;
+    let string = "";
+    for(let i = 0; i < taille; i++){
+        if(s[i] == s[i].toUpperCase()){      //Si s[i] est une majuscule
+            string += s[i].toLowerCase();
+        }
+        else if(s[i] == s[i].toLowerCase()){     //Si s[i] est une minuscule
+            string += s[i].toUpperCase();
+        }
+        else{
+            string += s[i];
+        }
+    }
+
+    return string;
+}

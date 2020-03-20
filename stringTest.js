@@ -9,3 +9,7 @@ function truncatTest(){
 function isPalindromeTest(){
     console.log(isPalindrome("ressasser"));
 }
+
+function swapCaseTest(){
+    console.log(swapCase("ressASSer"))
+}

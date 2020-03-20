@@ -13,7 +13,7 @@ function repeat(s, n){
 //Exercice 2
 
 function truncate(s, n){
-    let taille = s.lenght;
+    let taille = s.length;
     if(n >= taille){
 
         return s;
@@ -28,3 +28,16 @@ function truncate(s, n){
 
 //Exercice 3
 
+function isPalindrome(s){
+    let string = "";
+    let taille = s.length;
+    for(let i = (taille - 1); i >= 0; i--){
+        string += s[i];
+    }
+    if(string == s){
+        return true;
+    }
+    else {
+        return false;
+    }
+}

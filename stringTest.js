@@ -5,3 +5,7 @@ function repeatTest(){
 function truncatTest(){
     console.log(truncate("troncated text", 10));
 }
+
+function isPalindromeTest(){
+    console.log(isPalindrome("ressasser"));
+}

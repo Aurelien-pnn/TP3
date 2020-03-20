@@ -1,5 +1,5 @@
 function main(){
-    truncatTest();
+    isPalindromeTest();
 }
 
 main();

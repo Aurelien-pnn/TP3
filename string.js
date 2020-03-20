@@ -42,6 +42,18 @@ function isPalindrome(s){
     }
 }
 
+function isPalindrome2(s){   //fonction plus efficace
+    let taille = s.length;
+    let lim = (taille/2) + 1;
+    for(let i = 0; i < lim; i++){
+        if(s[i] != s[taille - 1 - i]){
+            return false;
+        }
+    }
+
+    return true;
+}
+
 //Exercice 4 
 
 function swapCase(s){

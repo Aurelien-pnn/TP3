@@ -1,5 +1,5 @@
 function main(){
-    swapCaseTest();
+    isPalindrome2Test();
 }
 
 main();

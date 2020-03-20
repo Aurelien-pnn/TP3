@@ -12,3 +12,19 @@ function repeat(s, n){
 
 //Exercice 2
 
+function truncate(s, n){
+    let taille = s.lenght;
+    if(n >= taille){
+
+        return s;
+    }
+    else{
+        let newstring = s.substring(0,(n-3));
+        newstring += "...";
+
+        return newstring;
+    }
+}
+
+//Exercice 3
+
